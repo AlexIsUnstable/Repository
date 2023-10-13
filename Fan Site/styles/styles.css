@@ -6,16 +6,18 @@ body.home {
 
 body.about {
     background-image: url('../images/background.jpg');
- background-size: cover;
+     background-size: cover;
 }
 
 body.quotes {
     background-image: url('../images/background.jpg');
- background-size: cover;
+     background-size: cover;
 }
 
 body.ranks {
     background-color: black;
+     background-size: cover;
+
     /*background-image: url('../images/background.jpg');*/
 }
 
@@ -78,5 +80,5 @@ div.desc {
 }
 
 h1 {
-    color: red;
+    color: lavender;
 }

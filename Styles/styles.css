@@ -1,5 +1,6 @@
 body {
     background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
 }
 
 h1 {
@@ -18,7 +19,7 @@ p {
 }
 
 ul {
-    color:white;
+    color:aqua;
 }
 
 a {

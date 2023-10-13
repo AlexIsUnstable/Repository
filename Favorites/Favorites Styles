@@ -1,1 +1,31 @@
+body {
+    background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
+}
 
+h1 {
+    color:white;
+}
+
+h4 {
+    color:white;
+}
+
+p {
+    color:white;
+    font-size:20px;
+    border-top-style: double;
+    border-bottom-style: double;
+    width: 300px
+}
+
+ul {
+    color:aqua;
+}
+
+a {
+    color:white;
+}
+a:hover {
+    color:aqua;
+}

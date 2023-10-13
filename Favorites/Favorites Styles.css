@@ -10,17 +10,24 @@ body {
   justify-content: center; 
   align-items: center; 
   height: 100vh; 
+.hover-cell {
+    cursor: pointer;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url('movie pic.jpg'); /* Set your default background image */
+    background-size: cover;
 }
+
+.hover-cell:hover {
+    background-image: url('Suzume pic.jpg'); /* Set your hover background image for each cell in the data-image attribute */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
 td {
-    background-image: none; /* No background image initially */
-    background-color: #f0f0f0; /* Default background color */
     padding: 10px;
-    text-align: center;
+    border: 1px solid #ccc;
 }
-/* When hovering over a cell with class "hover-effect" */
-td.hover-effect:hover {
-    background-image: url('Redline Pic.jpg'); /* Change the background image */
-    background-size: cover; /* Adjust background image size as needed */
-    background-color: transparent; /* Make the background color transparent */
-    color: white; /* Change the text color on hover */
-}
+

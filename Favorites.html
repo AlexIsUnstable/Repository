@@ -1,45 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-	<body>
-	
-		<head>
-		<meta charset="UTF-8">
-        
-		<title>
-           Favorites
-        </title>
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
 
-			 <!--
-        <style>
-			margin-left:auto;
-			margin-right:auto;
-			text-align:center;
-			font-size:20px
-            body {
-              background-image: url('img/Redline Pic.jpg');
-           background-size: cover;
-        }
-		</style> 
-        -->
+thead th:nth-child(1) {
+  width: 50%;
+}
 
-			
-<table>
-  <tr>
-    <th>Movie</th>
-    <th>Food</th>
-    <th>Sport</th>
-  </tr>
-  <tr>
-    <td>Interstellar</td>
-    <td>Tacos</td>
-    <td>Formula 1</td>
-  </tr>
-  <tr>
-    <td>Arrival</td>
-    <td>Empanadas</td>
-    <td>Rally</td>
-  </tr>
-</table>
-			
-	<body/>
+thead th:nth-child(2) {
+  width: 50%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+/* colors */
+thead {
+  background-color: yellow;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+/* fonts */
+caption {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+th {
+  font-size: 18px;
+}
+
+td {
+  font-size: 16px;
+}
 <html/>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <table>
+    <caption>My Favorites</caption>
+    <thead>
+      <tr>
+        <th>Thing</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Movie</td>
+        <td>Arrival</td>
+      </tr>
+      <tr>
+        <td>Food</td>
+        <td>Tacos</td>
+      </tr>
+      <tr>
+        <td>Game</td>
+        <td>Destiny 2</td>
+      </tr>
+      <tr>
+        <td>Neo-soul</td>
+        <td>Music Genre</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>	

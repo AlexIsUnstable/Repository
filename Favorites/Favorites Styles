@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/Children Of The Sea.jpg');
+    background-image: url('../images/movie pic.jpg');
     background-size: cover;
 
 
@@ -10,25 +10,25 @@ background-image: url('../images/Children Of The Sea.jpg');
     font-size:20px;
 
 p2 {
-background-image: url('../images/Children Of The Sea.jpg');
+background-image: url('../images/Redline pic.jpg');
     background-size: cover;
-    color:white;
+    color:DarkGoldenRod;
     font-size:20px;
 
 p3 {
-background-image: url('../images/Children Of The Sea.jpg');
+background-image: url('../images/Weathering with you pic.jpg');
     background-size: cover;
-    color:white;
+    color:DarkTurquoise;
     font-size:20px;
 
 p4 {
-background-image: url('../images/Children Of The Sea.jpg');
+background-image: url('../images/Suzume pic.jpg');
     background-size: cover;
-    color:white;
+    color:Coral;
     font-size:20px;
 
 p5 {
-background-image: url('../images/Children Of The Sea.jpg');
+background-image: url('../images/howl's moving castle pic.jpg');
     background-size: cover;
-    color:white;
+    color:BurlyWood;
     font-size:20px;

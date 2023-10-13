@@ -5,6 +5,7 @@ body {
 table {
   border: 2px solid white;
   color: white;
+background-color: grey;
 }
 table {
   margin: 0 auto; 

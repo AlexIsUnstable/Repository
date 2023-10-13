@@ -14,6 +14,10 @@ body.quotes {
      background-size: cover;
 }
 
+.container img {
+    object-fit: contain;
+}
+
 body.ranks {
      background-image: url('../images/background.jpg');
      background-size: cover;

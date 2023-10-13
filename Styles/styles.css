@@ -14,8 +14,9 @@ h4 {
 p {
     color:white;
     font-size:20px;
-    border-top-style: solid;
-    border-bottom-style: solid;
+    border-top-style: double;
+    border-bottom-style: double;
+    position: absolute;
 }
 
 ul {

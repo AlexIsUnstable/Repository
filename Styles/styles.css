@@ -16,7 +16,7 @@ p {
     font-size:20px;
     border-top-style: double;
     border-bottom-style: double;
-    position: absolute;
+    width: 400px
 }
 
 ul {

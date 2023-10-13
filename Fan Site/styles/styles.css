@@ -1,1 +1,78 @@
+body.home {
+    background-image: url('../images/background.jpg');
+}
 
+body.about {
+    background-image: url('../images/background.jpg');
+}
+
+body.quotes {
+    background-image: url('../images/background.jpg');
+}
+
+body.ranks {
+    background-color: black;
+    /*background-image: url('../images/background.jpg');*/
+}
+
+a {
+    color:white;
+}
+a:hover {
+    color:aqua;
+}
+a.nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+div.centered {
+    margin: auto;
+    width: 300px;
+}
+
+div.nav {
+    margin: auto;
+    padding-top: 25px;
+    height:50px;
+    text-align: center;
+}
+
+div.red {
+    background-color: red;
+}
+
+div.row {
+    margin: auto;
+    background-color: red;
+    height: 350px; 
+    width: 50%;
+    border-style: solid;
+}
+
+div.movie {
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;    
+}
+
+img.movie {
+    padding-top: 25px;
+}
+
+h2.movie {
+    padding-top: 140px;
+}
+
+div.desc {
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}

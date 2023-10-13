@@ -1,31 +1,34 @@
 body {
     background-image: url('../images/Children Of The Sea.jpg');
     background-size: cover;
-}
 
-h1 {
-    color:white;
-}
 
-h4 {
-    color:white;
-}
-
-p {
+p1 {
+background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
     color:white;
     font-size:20px;
-    border-top-style: double;
-    border-bottom-style: double;
-    width: 300px
-}
 
-ul {
-    color:aqua;
-}
-
-a {
+p2 {
+background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
     color:white;
-}
-a:hover {
-    color:aqua;
-}
+    font-size:20px;
+
+p3 {
+background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
+    color:white;
+    font-size:20px;
+
+p4 {
+background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
+    color:white;
+    font-size:20px;
+
+p5 {
+background-image: url('../images/Children Of The Sea.jpg');
+    background-size: cover;
+    color:white;
+    font-size:20px;

@@ -1,13 +1,17 @@
 body.home {
     background-image: url('../images/background.jpg');
+    background-size: cover;
 }
+
 
 body.about {
     background-image: url('../images/background.jpg');
+ background-size: cover;
 }
 
 body.quotes {
     background-image: url('../images/background.jpg');
+ background-size: cover;
 }
 
 body.ranks {
@@ -39,13 +43,13 @@ div.nav {
     text-align: center;
 }
 
-div.red {
-    background-color: red;
+div.white {
+    background-color: white;
 }
 
 div.row {
     margin: auto;
-    background-color: red;
+    background-color: aqua;
     height: 350px; 
     width: 50%;
     border-style: solid;

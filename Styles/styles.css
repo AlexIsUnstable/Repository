@@ -13,8 +13,8 @@ h4 {
 p {
     color:white;
     font-size:20px;
-    border-top-style: dotted;
-    border-bottom-style: dotted;
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
 
 ul {

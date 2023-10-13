@@ -15,8 +15,9 @@ body.quotes {
 }
 
 body.ranks {
-    background-color: black;
+     background-image: url('../images/background.jpg');
      background-size: cover;
+
 
     /*background-image: url('../images/background.jpg');*/
 }

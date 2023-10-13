@@ -2,10 +2,10 @@ const displayedImage = document.getElementById('displayedImage');
 const changeImageButton = document.getElementById('changeImageButton');
 
 const imageArray = [
-    'quote1.jpg',
-    'quote2.jpg',
-    'quote3.jpg',
-    'quote4.png'
+    'images/quote1.jpg',
+    'images/quote2.jpg',
+    'images/quote3.jpg',
+    'images/quote4.png'
 ];
 
 let currentIndex = 0;

@@ -26,3 +26,7 @@ td {
     border: 1px solid #ccc;
 }
 
+.hover-cell {
+    cursor: pointer;
+    transition: background-image 0.3s ease-in-out;
+}

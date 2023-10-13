@@ -14,6 +14,12 @@ h4 {
 p {
     color:white;
     font-size:20px;
+    content:"";
+    display:block;
+    margin: 0 auto;
+    width: 35%
+    padding-top: 20px
+    padding-bottom: 20px
     border-top-style: double;
     border-bottom-style: double;
     position: absolute;

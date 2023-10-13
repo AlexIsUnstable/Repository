@@ -1,3 +1,7 @@
+body {
+    background-image: url('../images/movie pic.jpg');
+    background-size: cover;
+}
 table {
   border: 2px solid white;
   color: white;

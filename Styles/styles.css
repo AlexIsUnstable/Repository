@@ -35,3 +35,10 @@ table.center {
     margin-right:auto;
 }
 <table class="center">
+
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+

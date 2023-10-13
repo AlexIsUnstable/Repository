@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/background.png');
+}
+
+h1 {
+    color:white;
+}
+
+h4 {
+    color:white;
+}
+
+p {
+    color:white;
+    font-size:20px;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+}
+
+ul {
+    color:white;
+}
+
+a {
+    color:white;
+}
+a:hover {
+    color:yellow;
+}

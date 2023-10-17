@@ -2,7 +2,7 @@ const displayedImage = document.getElementById('displayedImage');
 const changeImageButton = document.getElementById('changeImageButton');
 
 const imageArray = [
-    'images/quote1.jpg',
+    'images/QUOTE.jpg',
     'images/quote2.jpg',
     'images/quote3.jpg',
     'images/quote4.png'

@@ -85,3 +85,9 @@ h1 {
     margin: auto;
     padding: 10px
 }
+ p {
+            text-align: justify;
+            color: #666666;
+            font-size: 18px;
+            line-height: 1.5;
+        }

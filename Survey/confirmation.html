@@ -29,7 +29,62 @@
     <!-- Your account creation survey form here -->
     <h1>Account Creation Survey</h1>
     <form id="accountSurveyForm" action="process_survey.php" method="post">
-        <!-- Survey fields go here -->
+ <form id="accountForm" action="process_account.php" method="post" enctype="multipart/form-data">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="about">About:</label>
+        <input type="text" id="about" name="about" required><br><br>
+
+        <label for="profilePicture">Profile Picture:</label>
+        <input type="file" id="profilePicture" name="profilePicture"><br><br>
+
+        <input type="submit" name="submit" value="Delete">
+        <input type="submit" value="Create Account">
+    </form>
+
+    <div id="errorMessages" class="error"></div>
+
+    <script>
+        const accountForm = document.getElementById('accountForm');
+        const errorMessages = document.getElementById('errorMessages');
+
+        accountForm.addEventListener('submit', function (e) {
+            errorMessages.innerHTML = '';
+            let isValid = true;
+
+            // Client-side validation
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (password !== confirmPassword) {
+                showError('Passwords do not match');
+                isValid = false;
+            }
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
+        function showError(message) {
+            const errorElement = document.createElement('p');
+            errorElement.textContent = message;
+            errorMessages.appendChild(errorElement);
+        }
+    </script>
         <!-- Submit button to complete the survey -->
         <input type="submit" value="Complete Survey">
     </form>

@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Creation Survey Confirmation</title>
+    <style>
+        /* Style for the popup bubble */
+        .popup {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Your account creation survey form here -->
+    <h1>Account Creation Survey</h1>
+    <form id="accountSurveyForm" action="process_survey.php" method="post">
+        <!-- Survey fields go here -->
+        <!-- Submit button to complete the survey -->
+        <input type="submit" value="Complete Survey">
+    </form>
+
+    <!-- Popup bubble to confirm survey completion -->
+    <div id="confirmationPopup" class="popup">
+        Account creation survey completed!
+    </div>
+
+    <script>
+        const accountSurveyForm = document.getElementById('accountSurveyForm');
+        const confirmationPopup = document.getElementById('confirmationPopup');
+
+        accountSurveyForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            
+            confirmationPopup.style.display = 'block';
+
+            setTimeout(function () {
+                confirmationPopup.style.display = 'none';
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
 

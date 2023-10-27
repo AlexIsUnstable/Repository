@@ -22,16 +22,17 @@
     </style>
 </head>
 <body>
-    <style>
-     {
-    background-image: url('../images/SuzumeWP.jpg');
-    background-size: cover
-}
-    </style>
     <!-- Your account creation survey form here -->
     <h1>Account Creation Survey</h1>
     <form id="accountSurveyForm" action="process_survey.php" method="post">
  <form id="accountForm" action="process_account.php" method="post" enctype="multipart/form-data">
+
+ <style>
+     {
+    background-image: url('../images/SuzumeWP.jpg');
+    background-size: cover
+}
+ </style>
      
  <fieldset>
                 <legend>User Info</legend>
@@ -57,10 +58,13 @@
                 <legend>Contact</legend>
                 
                 <label for="email">
-                    Email: <br>
+                    Email:
                     <input type="email" id="email" name="email" required/>
                 </label>
-                
+
+                      <br>
+                      <br>
+                      
                  <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
               
@@ -74,15 +78,20 @@
                 <br>
                 
                 <label for="tel">
-                    Mobile Phone: <br>
+                    Phone:
                     <!-- On mobile phones this will bring up the numberpad -->
                     <input type="tel" id="tel" name="tel" required>
                 </label>
               
-       <br>
-                      
-        <input type="submit" name="submit" value="Delete">
-        <input type="submit" value="Create Account">
+               <br>
+                    <fieldset>
+                <legend>About</legend>
+                
+                <label for="about">
+                    About: <br>
+                    <textarea name="about" id="about" cols="100" rows="20" maxlength="2000">Tell us about yourself.</textarea>
+                </label>
+            </fieldset>   
     </form>
 </body>
     

@@ -15,54 +15,77 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
-         <style>
-         {
-    background-image: url('../images/SuzumeWP.jpg');
-    background-size: cover
-}
+        
         .error {
             color: red;
         }
     </style>
 </head>
 <body>
+    <style>
+     {
+    background-image: url('../images/SuzumeWP.jpg');
+    background-size: cover
+}
+    </style>
     <!-- Your account creation survey form here -->
     <h1>Account Creation Survey</h1>
     <form id="accountSurveyForm" action="process_survey.php" method="post">
  <form id="accountForm" action="process_account.php" method="post" enctype="multipart/form-data">
-                 <fieldset>
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" required><br><br>
+     
+ <fieldset>
+                <legend>User Info</legend>
+                
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name"/>
+                
+                <br>
+                <br>
+                
+                <label for="birth-date">Birth Date:</label>
+                <input type="date" id="birth-date" name="birth-date"/>
+                
+                <br>
+                <br>
+                
+                <label for="profile-photo">Profile Photo:</label>
+                <input type="file" id="profile-photo" name="profile-photo">
+                
+            </fieldset>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="about">
-                    About: <br>
-                    <textarea name="about" id="about" cols="100" rows="20" maxlength="2000">Tell us about yourself!</textarea>
-        </label>
-                <fieldset/>
-
-                <fieldset>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+                  <fieldset>
+                <legend>Contact</legend>
+                
+                <label for="email">
+                    Email: <br>
+                    <input type="email" id="email" name="email" required/>
+                </label>
+                
+                 <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+              
+                <br>
+                <br>
 
         <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
-
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required><br><br>
-                <fieldset/>
-          
-            <fieldset>
-        <label for="profilePicture">Profile Picture:</label>
-        <input type="file" id="profilePicture" name="profilePicture"><br><br>
-            <fieldset/>
-
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                      
+                <br>
+                <br>
+                
+                <label for="tel">
+                    Mobile Phone: <br>
+                    <!-- On mobile phones this will bring up the numberpad -->
+                    <input type="tel" id="tel" name="tel" required>
+                </label>
+              
+       <br>
+                      
         <input type="submit" name="submit" value="Delete">
         <input type="submit" value="Create Account">
     </form>
-
+</body>
+    
     <div id="errorMessages" class="error"></div>
 
     <script>

@@ -428,11 +428,197 @@ button.ratingVS {
     padding-bottom: 1px;
 }
 
+#footer .links tr {
+    margin: 0;
+    padding: 0;
+}
 
+#footer .links table {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
+#footer .links {
+    font-size: 11px;
+    line-height: 13px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
 
+#footer {
+    clear: both;
+    width: 960px;
+    margin-top: 15px;
+    background: #eee;
+    border-top: 1px solid #ccc;
+}
 
+#copyright {
+    font-size: 11px;
+    padding: 15px 0;
+    text-align: center;
+}
 
+.homepage-side-block {
+    margin-bottom: 15px;
+    clear: both;
+}
 
+.img-yellow-message-top-cap.img-side-cap, .img-yellow-message-bottom-cap.img-side-cap {
+    font-size: 0;
+    width: 300px;
+}
+
+.img-yellow-message-top-cap, .img-yellow-message-bottom-cap {
+    height: 4px;
+    width: 640px;
+}
+.img-yellow-message-top-cap {
+    background: transparent url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/iyt_iconset-vfl77235.png) repeat-x scroll 0 -61px;
+}
+
+.img-yellow-top-right-corner {
+    background: transparent url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/iyt_iconset-vfl77235.png) repeat-x scroll -636px -61px;
+}
+
+.img-yellow-top-right-corner, .img-yellow-bottom-right-corner {
+    float: right;
+    height: 4px;
+    width: 4px;
+}
+
+.side-announcement-box {
+    padding: 6px 10px 5px 10px;
+}
+
+.left-right-border-yellow {
+    background-color: #ffffe5;
+    border-right: 1px solid #f5e082;
+    border-left: 1px solid #f5e082;
+}
+
+.homepage-whats-new-content {
+    padding: 0 5px 0 5px;
+}
+
+.homepage-block-heading {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.homepage-whatsnew-entry {
+    padding: 3px 0;
+    position: relative;
+}
+
+.homepage-whatsnew-image {
+    float: left;
+    width: 30px;
+    height: 37px;
+    margin-bottom: 12px;
+}
+
+.homepage-whatsnew-desc {
+    margin-left: 36px;
+    margin-bottom: 12px;
+}
+
+.alignR {
+    text-align: right;
+}
+
+.spacer {
+    clear: both;
+    height: 1px;
+    font-size: 1px;
+}
+
+.homepage-side-block {
+    margin-bottom: 15px;
+    clear: both;
+}
+
+#footer #igoogle-footer {
+    padding-top: 4px;
+}
+
+#igoogle-footer button {
+    height: 17px;
+    width: 62px;
+    background-position: 0 -79px;
+    vertical-align: middle;
+}
+
+#footer #igoogle-footer span {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+#footer .search-form {
+    display: block;
+    padding-top: 13px;
+    margin-left: 91px;
+    height: 30px;
+    margin: 0;
+}
+
+#footer #igoogle-footer {
+    padding-top: 4px;
+}
+
+#igoogle-footer button {
+    height: 17px;
+    width: 62px;
+    background-position: 0 -79px;
+    vertical-align: middle;
+}
+
+#footer #igoogle-footer span {
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.yt-button-primary, a.yt-button-primary {
+    font-weight: bold;
+    color: #039;
+    background: #c6d7f3 url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x center -1602px;
+    border-color: #a0b1dc;
+}
+.yt-button, a.yt-button {
+    padding: 0 .8333em;
+    margin: 0 .25em;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    background: #d8d8d8 url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x center -802px;
+    border: 1px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+}
+
+#footer .links th {
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 14px;
+    padding-bottom: 1px;
+    white-space: nowrap;
+}
 
 

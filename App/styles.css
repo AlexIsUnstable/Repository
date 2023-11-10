@@ -615,4 +615,13 @@ table {
     white-space: nowrap;
 }
 
+#homepage-featured-tabs {
+    padding: 5px 5px;
+    font-size: 11px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
 
+#homepage-featured-heading {
+    border-bottom: 1px solid #ccc;
+}

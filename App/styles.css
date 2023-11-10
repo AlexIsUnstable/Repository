@@ -1,1 +1,438 @@
+#baseDiv {
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5px 25px 5px;
+}
+
+#masthead {
+    width: 960px;
+}
+
+#masthead {
+    margin: 8px auto 5px auto;
+}
+
+#masthead #logo {
+    float: left;
+    display: block;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #03c;
+    text-decoration: none;
+}
+
+#masthead #logo button {
+    width: 84px;
+    height: 33px;
+    background-position: 0 0;
+}
+
+.master-sprite {
+    background: transparent url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x scroll 0 0;
+    border: 0;
+    padding: 0;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#masthead #region-and-language-picker-links-wrapper {
+    width: 200px;
+}
+
+#masthead #region-and-language-picker-links-wrapper {
+    float: left;
+    padding: 0 0 0 7px;
+}
+
+#masthead #slogan {
+    width: 125px;
+    height: 11px;
+    background-position: 0 -33px;
+    margin: 2px 2px 3px 2px;
+    cursor: default;
+    display: block;
+}
+.master-sprite {
+    background: transparent url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x scroll 0 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#region-and-language-picker-links-wrapper span {
+    padding-bottom: 1px;
+}
+
+.util-item.first {
+    border-left: none;
+    padding-left: 1px;
+    margin: 0;
+}
+.util-item.with-flag {
+    margin-left: 0;
+    padding-left: 0;
+}
+.util-item {
+    border-left: 1px solid #aaa;
+    padding: 0 0 1px 6px;
+    margin-left: 6px;
+    float: left;
+    display: block;
+}
+
+#masthead .user-info {
+    float: right;
+    margin-top: 16px;
+    text-align: right;
+}
+
+body, input, textarea {
+    font: 12px Arial,sans-serif;
+}
+
+#masthead #bar {
+    height: 35px;
+    background-position: 0 -487px;
+    border: 1px solid #999;
+    clear: both;
+    cursor: default;
+}
+
+#masthead-bar-contents {
+    padding-top: 4px;
+    text-align: right;
+}
+
+.is-english #masthead .search-form {
+    margin-right: 93px;
+}
+
+#masthead .search-form {
+    display: inline;
+}
+
+#masthead .search-term, #masthead .yt-button, #masthead .yt-dropdown {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+#masthead .search-term, #footer .search-term {
+    border: 1px solid #999;
+    padding: 4px 1px 1px 1px;
+    width: 295px;
+    height: 18px;
+    font-size: 13px!important;
+    vertical-align: middle;
+}
+
+.yt-button-primary, a.yt-button-primary {
+    font-weight: bold;
+    color: #039;
+    background: #c6d7f3 url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x center -1602px;
+    border-color: #a0b1dc;
+}
+.yt-button, a.yt-button {
+    padding: 0 .8333em;
+    margin: 0 .25em;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    background: #d8d8d8 url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) repeat-x center -802px;
+    border: 1px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+}
+
+.yt-button span {
+    line-height: 1.9166em;
+}
+
+#masthead .nav-item {
+    background-position: 0 -487px;
+    height: 16px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+    display: block;
+    padding: 9px 8px 10px 8px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #999;
+}
+
+.yt-dropdown-urgent .yt-dropdown-arr img, .yt-dropdown-urgent .yt-dropdown-arr button {
+    background: url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) no-repeat -74px center;
+}
+
+.yt-dropdown .yt-dropdown-arr img, .yt-dropdown .yt-dropdown-arr button {
+    background: url(https://web.archive.org/web/20090227032615im_/http://s.ytimg.com/yt/img/master-vfl77641.png) no-repeat 6px center;
+}
+.yt-dropdown .yt-dropdown-arr img, .yt-dropdown .yt-dropdown-arr button {
+    border-left: 1px solid #fff;
+}
+.yt-button button {
+    vertical-align: top;
+    height: 1.9166em;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+    cursor: pointer;
+}
+
+.yt-dropdown-urgent .yt-dropdown-menu {
+    border-color: #ecc101;
+    background-color: #ffeb81;
+}
+
+.yt-dropdown-menu {
+    background: #ccc;
+}
+.yt-dropdown-menu, .yt-dropdown-menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.yt-dropdown-menu {
+    position: absolute;
+    top: 1.5em;
+    left: .25em;
+    z-index: 99;
+    width: 110%;
+    border: 1px solid #999;
+    visibility: hidden;
+    white-space: normal;
+}
+
+.yt-dropdown-menu li:first-child {
+    margin-top: 0;
+}
+
+.yt-dropdown-menu li {
+    margin-top: 1px;
+}
+.yt-dropdown-menu, .yt-dropdown-menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#masthead .search-term, #masthead .yt-button, #masthead .yt-dropdown {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+.yt-dropdown {
+    position: relative;
+    z-index: 98;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.clear {
+    clear: both;
+}
+
+#homepage-main-content {
+    float: left;
+    width: 640px;
+    margin-top: 5px;
+}
+
+.homepage-content-block {
+    margin: 0 0 15px 0;
+}
+
+.homepage-block-heading {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.grayText {
+    color: #666;
+}
+
+.grid-view .video-cell {
+    float: left;
+    width: 24.9%;
+}
+
+html>body .grid-view .video-entry, html>body .grid-view .channel-entry, html>body .grid-view .movie-entry {
+    padding: 0 5px;
+}
+
+.grid-view .video-entry {
+    padding: 0 3px;
+}
+.grid-view .video-entry {
+    width: 115px;
+    margin: 10px 0;
+}
+
+.v120WrapperOuter {
+    width: 122px;
+    border: 1px solid #999;
+}
+
+.v120WrapperInner {
+    overflow: hidden;
+    width: 120px;
+    height: 72px;
+    border: 1px solid #fff;
+}
+
+.v120WrapperInner img {
+    margin-top: -10px;
+}
+
+.vimg120 {
+    width: 120px;
+    height: 90px;
+}
+.vimg120, .vimg90, .vimg50, .vimgCluster120 {
+    -ms-interpolation-mode: bicubic;
+}
+
+.list-view .video-long-title, .grid-view .video-short-title, .list-view .channel-long-title, .grid-view .channel-short-title, .list-view .playlist-long-title, .list-view .channel-facets .channel-username, .grid-view .channel-text-break-grid {
+    display: block;
+}
+
+.video-short-title, .channel-short-title, .playlist-short-title, .movie-short-title {
+    height: 30px;
+    overflow: hidden;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.video-facets, .channel-facets, .playlist-facets, .playlist-main-stats, .movie-facets, .mini-list-view .video-view-count, .mini-list-view .video-username {
+    font-size: 11px;
+    color: #666;
+}
+
+.addtoQL90 {
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -24px;
+    padding: 1px;
+}
+
+button.QLIcon, button.QLIconImg, button.QLIconImgOver, button.QLIconImgDone {
+    width: 25px;
+    height: 25px;
+    margin-top: -10px;
+}
+
+.QLIconImg {
+    background-position: 0 -355px;
+}
+
+.v120WrapperInner .quicklist-inlist {
+    width: 118px;
+}
+.quicklist-inlist {
+    text-align: left;
+    padding-left: 5px;
+    background-color: #a0cd5b;
+    font-size: 11px;
+    height: 14px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: black;
+    opacity: .8;
+    -moz-opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.video-time, .video-corner-text {
+    text-align: right;
+    margin-top: -16px;
+    margin-right: 1px;
+    font-family: Arial,sans-serif;
+    white-space: nowrap;
+}
+
+.video-time span, .video-corner-text span {
+    padding: 0 4px;
+    font-weight: bold;
+    font-size: 11px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    opacity: .75;
+    -moz-opacity: .75;
+}
+
+.list-view .video-main-content, .list-view .playlist-main-content {
+    width: 456px;
+}
+
+.list-view .video-main-content, .mini-list-view .video-main-content, .list-view .channel-main-content, .list-view .playlist-main-content {
+    padding-left: 10px;
+    float: left;
+}
+
+.video-description, .channel-description {
+    height: 16px;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+button.ratingVS-4\.5 {
+    background-position: 0 -397px;
+}
+
+button.ratingVS {
+    width: 60px;
+    height: 14px;
+    vertical-align: top;
+    cursor: default;
+}
+
+.video-facets div {
+    display: inline;
+    float: none;
+}
+
+.video-facets span, .channel-facets span, .playlist-facets span {
+    margin-right: 12px;
+}
+
+
+#footer .links .separator {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+#footer .links td {
+    width: 16%;
+    white-space: nowrap;
+    margin: 0;
+    padding-right: 15px;
+    line-height: 14px;
+    padding-bottom: 1px;
+}
+
+
+
+
+
+
+
+
 

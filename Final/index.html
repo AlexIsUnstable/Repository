@@ -13,18 +13,21 @@
 <body>
 <link rel="stylesheet" href="styles/Styles.css">
 <header>
+
+ <script
+		$( '.navbar-nav a' ).on( 'click', function () {
+	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});               
+	</script>
+	
     <nav>
         
 <div id="main">
 <nav class="navbar navbar-default">
   <ul class="nav navbar-nav">
       
-        <script
-		$( '.navbar-nav a' ).on( 'click', function () {
-	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});               
-	</script>
+       
 
             <li><a href="Home.html">Home</a></li>
             <li><a href="About.html">About Us</a></li>

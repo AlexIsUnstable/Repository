@@ -97,6 +97,7 @@ body {
 }
 .card__snippet {
   display: -webkit-box;
+  color: white;
   max-height: 150px;
   margin: 20px 0;
   overflow: hidden;

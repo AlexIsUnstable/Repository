@@ -48,16 +48,6 @@ p {
   text-decoration: underline;
 }
 
-.sec-services h2,
-.sec-services p {
-  font-weight: 300;
-  text-align: center;
-}
-
-.sec-testimonials p {
-  font-style: italic;
-}
-
 .sec-contact .btn {
   text-transform: uppercase;
 }
@@ -158,33 +148,6 @@ hr {
   color: #ad0000;
 }
 
-/*Services*/
-.sec-services {
-  background: #f9f9f9;
-}
-
-.sec-services i {
-  display: block;
-  margin: auto;
-  width: 45px;
-}
-
-.sec-services .fa-paint-brush {
-  width: 64px;
-}
-
-.sec-services .fa-code {
-  width: 68px;
-}
-
-.sec-services h2 {
-  margin: 1em 0;
-}
-
-/*Testimonials*/
-.sec-testimonials {
-  background: #f9f9f9;
-}
 
 /*Contact*/
 .sec-contact .form-control:focus {

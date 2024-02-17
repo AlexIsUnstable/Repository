@@ -235,7 +235,7 @@ cardimg {
 
 /*About Section*/
 #about{
-	background:url('../img/about/back.jpg');
+	background:url('../img/about/helmet.png');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -285,7 +285,7 @@ cardimg {
 	width: 100%;
 }
 #contact{
-	background:url('../img/gallery7.jpg');
+	background:url('../img/drivers 2.png');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;

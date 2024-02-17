@@ -17,7 +17,7 @@ body{
 /*Slider*/
 .carousel-item{
 	height: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
+}
 .crs-img-1{
 	background: url('../img/carousel1.png');
 	background-size: cover;

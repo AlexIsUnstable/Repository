@@ -13,7 +13,12 @@ body{
 .navbar .webT{
 	font-size: 20px;
 }
-
+/* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    .mobile-only {
+      display: block; /* Show only on mobile devices */
+    }
+  }
 /*Slider*/
 .carousel-item{
 	height: 500px;

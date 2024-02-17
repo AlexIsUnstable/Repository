@@ -196,7 +196,7 @@ cardimg {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  background: linear-gradient(to bottom left, #3f3e42 40%, #212121 100%);
 }
 
 .card_title {

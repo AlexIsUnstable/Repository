@@ -17,34 +17,31 @@ body{
 /*Slider*/
 .carousel-item{
 	height: 500px;
+	filter: brightness(50%);
 }
 .crs-img-1{
 	background: url('../img/carousel1.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
-	filter: brightness(50%)
 }
 .crs-img-2{
 	background: url('../img/carousel 2.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
-	filter: brightness(50%);
 }
 .crs-img-3{
 	background: url('../img/carousel 3.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;	
-	filter: brightness(50%);
 }
 .crs-img-4{
 	background: url('../img/carousel 4.png');
 	background-size: cover;
 	background-position: center;
 	width:100%;
-	filter: brightness(50%);
 }
 
 

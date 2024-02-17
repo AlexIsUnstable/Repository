@@ -80,7 +80,7 @@ body{
 /*Video*/
 #video{
 	position: relative;
-	background:url('../img/video.jpg');
+	background:url('../img/podium.png');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;

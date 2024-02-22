@@ -42,9 +42,11 @@ header, figure, main, footer {
 
 /* Keyframes Animation */
 @keyframes boringAnimation {
+    animation-delay: 30s;
     0% { transform: rotate(0deg); }
     50% { transform: rotate(180deg); }
     100% { transform: rotate(0deg); }
+    
 }
 
 /* Apply the animation */

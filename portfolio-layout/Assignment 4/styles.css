@@ -75,3 +75,11 @@ footer {
     0% { background-position: 0 0 }
     100% { background-position: -500px 0 }
 }
+@keyframes changeTextColor {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: black; /* Change text color to black */
+    }
+}

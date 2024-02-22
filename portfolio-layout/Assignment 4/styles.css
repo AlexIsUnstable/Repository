@@ -60,5 +60,17 @@ footer {
 }
 
 #rainbow-text {
-    transition: color 1s ease-in-out; /* Add a transition effect for smoother color change */
+    animation: rainbowAnimation 5s infinite; /* Animation for rainbow effect */
+    animation-delay: 30s; /* Delay of 30 seconds */
+}
+
+@keyframes rainbowAnimation {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    56% { color: blue; }
+    70% { color: indigo; }
+    84% { color: violet; }
+    100% { color: red; }
 }

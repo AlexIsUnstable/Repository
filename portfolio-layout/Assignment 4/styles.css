@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 5px 0;
+}
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Transitions */
+header, figure, main, footer {
+    transition: all 1s ease;
+}
+
+/* Keyframes Animation */
+@keyframes boringAnimation {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Apply the animation */
+footer {
+    animation: boringAnimation 5s infinite;
+}

@@ -42,7 +42,6 @@ header, figure, main, footer {
 
 /* Keyframes Animation */
 @keyframes boringAnimation {
-    animation-delay: 30s;
     0% { transform: rotate(0deg); }
     50% { transform: rotate(180deg); }
     100% { transform: rotate(0deg); }
@@ -51,7 +50,8 @@ header, figure, main, footer {
 
 /* Apply the animation */
 footer {
-    animation: boringAnimation 5s infinite;
+    animation: boringAnimation 5s infinite;   
+    animation-delay: 30s;
 }
 .content {
     padding: 20px;

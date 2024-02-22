@@ -51,3 +51,12 @@ header, figure, main, footer {
 footer {
     animation: boringAnimation 5s infinite;
 }
+.content {
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+#rainbow-text {
+    transition: color 1s ease-in-out; /* Add a transition effect for smoother color change */
+}

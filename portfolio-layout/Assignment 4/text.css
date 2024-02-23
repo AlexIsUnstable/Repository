@@ -1,25 +1,33 @@
-@import "bourbon";
+ body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrolling */
+    }
 
-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: skyblue;
-  background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
+    /* Initial styling */
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        transition: all 2s ease; /* Smooth transition for madness */
+    }
 
-h1{
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  text-align: center;
-}
+    /* Chaos mode: animations, transformations, etc. */
+    .chaos {
+        background-color: #f00;
+        transform: rotate(180deg);
+        font-size: 48px;
+        animation: shake 0.5s infinite alternate;
+    }
 
-}
-
-span{
-  display: inline-block;
-}
+    /* Keyframes for shake animation */
+    @keyframes shake {
+        0% { transform: rotate(180deg) translateX(0); }
+        100% { transform: rotate(180deg) translateX(10px); }
+    }

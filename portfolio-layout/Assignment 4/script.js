@@ -11,14 +11,38 @@ canvas.width = window.innerWidth;
 var ctx = canvas.getContext("2d");
 
 /* Fills or sets the color,gradient,pattern */
-ctx.fillStyle = "white";
-ctx.fillRect(0, 0, canvas.width, canvas.height);
 ctx.font = "16px Arial";
 ctx.fillStyle = "green";
 
+// Function to wrap text to prevent overflowing
+function wrapText(context, text, x, y, maxWidth, lineHeight) {
+    var words = text.split(' ');
+    var line = '';
+    
+    for(var i = 0; i < words.length; i++) {
+        var testLine = line + words[i] + ' ';
+        var metrics = context.measureText(testLine);
+        var testWidth = metrics.width;
+        if (testWidth > maxWidth && i > 0) {
+            context.fillText(line, x, y);
+            line = words[i] + ' ';
+            y += lineHeight;
+        }
+        else {
+            line = testLine;
+        }
+    }
+    context.fillText(line, x, y);
+}
+
+// Define the position for text
+var x = 50;
+var y = 50;
+var maxWidth = canvas.width - 100; // Set maximum width for text
+var lineHeight = 20; // Set line height
+
 /* Writes the required text */
-ctx.fillText(" Once upon a time, in a nondescript town with perfectly average weather, there lived an utterly unremarkable person named John.\n John had a completely mundane job at a small office, where he spent his days shuffling papers and staring at his computer screen. He had no hobbies, no passions, and no interesting quirks to speak of. \n Every morning, John woke up at precisely 7:00 AM to the sound of his alarm clock. He would then proceed to eat the same bland cereal he had eaten for breakfast every day for the past decade. After getting dressed in his dull grey suit, John would make the uneventful journey to his equally uneventful workplace. \n At work, John would sit at his desk, typing away on his keyboard with an air of indifference. Occasionally, he would engage in meaningless small talk with his equally uninteresting coworkers about the weather or the latest episode of a forgettable sitcom. \n At precisely 12:00 PM, John would take his lunch break, during which he would consume a bland turkey sandwich while staring blankly at his phone. After lunch, he would resume his monotonous tasks until 5:00 PM, when he would clock out and head home. \n Upon arriving home, John would reheat a frozen dinner in the microwave and eat it in front of the television, where he would watch mind-numbing reality shows until it was time for bed. And so, day after day, John lived his unremarkable life, never experiencing anything out of the ordinary or even remotely interesting. The end.", 500, 350)
-let particles = [];
+wrapText(ctx," Once upon a time, in a nondescript town with perfectly average weather, there lived an utterly unremarkable person named John.\n John had a completely mundane job at a small office, where he spent his days shuffling papers and staring at his computer screen. He had no hobbies, no passions, and no interesting quirks to speak of. \n Every morning, John woke up at precisely 7:00 AM to the sound of his alarm clock. He would then proceed to eat the same bland cereal he had eaten for breakfast every day for the past decade. After getting dressed in his dull grey suit, John would make the uneventful journey to his equally uneventful workplace. \n At work, John would sit at his desk, typing away on his keyboard with an air of indifference. Occasionally, he would engage in meaningless small talk with his equally uninteresting coworkers about the weather or the latest episode of a forgettable sitcom. \n At precisely 12:00 PM, John would take his lunch break, during which he would consume a bland turkey sandwich while staring blankly at his phone. After lunch, he would resume his monotonous tasks until 5:00 PM, when he would clock out and head home. \n Upon arriving home, John would reheat a frozen dinner in the microwave and eat it in front of the television, where he would watch mind-numbing reality shows until it was time for bed. And so, day after day, John lived his unremarkable life, never experiencing anything out of the ordinary or even remotely interesting. The end.",x, y, maxWidth, lineHeight);
 
 /* Initialize particle object */
 class Particle {

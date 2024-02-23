@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 /* BODY */
-body {
+body1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,7 +20,7 @@ body {
   background: transparent;
 }
 /* CLOUDS */
-body:before {
+body1:before {
   content: "";
   position: absolute;
   top: 0;

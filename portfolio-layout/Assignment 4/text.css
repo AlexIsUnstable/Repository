@@ -5,7 +5,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-    
+  background-color: skyblue;
+  background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 h1{
   font-family: 'Oswald', sans-serif;

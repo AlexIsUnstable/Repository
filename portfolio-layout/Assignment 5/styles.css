@@ -30,10 +30,8 @@
       font-family: 'Times New Roman', Times, serif;
       background-color: #eaeaea;
       color: white;
-            background-image: url('../../images/godzilla.jpg');
+            background-image: url('/..../images/godzilla.jpg');
             background-size: 100% 100%;
-      
-
     }
 
     .dated .container {

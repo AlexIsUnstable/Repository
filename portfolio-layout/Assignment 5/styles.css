@@ -1,0 +1,42 @@
+ /* Modern sleek appearance */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      transition: all 0.5s ease;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Dated appearance */
+    .dated {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #eaeaea;
+      color: white;
+            background-image: url('../godzilla.jpg');
+            background-size: 100% 100%;
+      
+
+    }
+
+    .dated .container {
+      background-color: #f8f8f8;
+      box-shadow: none;
+    }

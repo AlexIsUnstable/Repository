@@ -1,0 +1,52 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section {
+            height: 500px;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0;
+          @media (max-width:1250px) {height:800px}
+        }
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            margin: 0;
+            padding: 50px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .parallax:nth-of-type(odd) {
+            background-color: #333;
+            color: white;
+        }
+        .parallax h2 {
+            margin: 0;
+        }

@@ -69,6 +69,8 @@ body {
 }
 .card__image {
   transition: 0.5s ease-in-out;
+  width: 100%
+  height: auto;
 }
 .card__caption {
   position: absolute;

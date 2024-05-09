@@ -71,6 +71,7 @@ body {
   transition: 0.5s ease-in-out;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .card__caption {
   position: absolute;
